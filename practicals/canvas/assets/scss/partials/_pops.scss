@@ -1,0 +1,54 @@
+.regular_motivation--part {
+  .motivation--part {
+    min-height: 100vh;
+    height: auto;
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .left_part {
+      width: 40%;
+      .motivation--content{
+        width: 80%;
+        padding: 20px;
+      .motivation--para {
+        color: $grey;
+      }
+      .motivation--head {
+        color: $black;
+      }
+      .motivation--desc {
+        color: $lightgrey;
+      }
+    }
+    }
+
+    .right_part {
+      width: 60%;
+      position: relative;
+      display: flex;
+    justify-content: center;
+      .card_image {
+        width: 32rem;
+        position: absolute;
+        z-index: -11;
+      }
+      .box-one {
+        top: 26%;
+        left: 0%;
+      }
+      .box-two {
+        bottom: 40%;
+        left: 10%;      
+      }
+      .box-three {
+        bottom: 18%;
+        left: 0%;
+
+      }
+      .phone_image {
+        width: 30rem;
+      }
+    }
+  }
+}

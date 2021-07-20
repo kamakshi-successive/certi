@@ -1,0 +1,140 @@
+.home_automation--part {
+  .background_img {
+    width: 596px;
+    height: 647px;
+    position: absolute;
+    background-color: #fafbff;
+    border: 1px solid #fafbff;
+    z-index: -11;
+    border-top-right-radius: 83% 282px;
+    border-bottom-right-radius: 89% 282px;
+    left: -67px;
+  }
+  .automation--part {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    height: auto;
+    .left_section {
+      width: 50%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      .content-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        .background_img1 {
+          width: 90px;
+          height: 90px;
+          box-shadow: -7px 40px 117px rgba(0, 0, 0, 0.14);
+          border-radius: 20px;
+        }
+        .para1 {
+          margin-left: 18px;
+          color: $greysh;
+          letter-spacing: -0.27px;
+        }
+      }
+      .content-part {
+        width: 83%;
+        .para2 {
+          color: $greysh;
+          letter-spacing: -0.27px;
+        }
+        .head1 {
+          color: black;
+          font-weight: 600;
+          letter-spacing: -0.54px;
+        }
+      }
+      .background_img6 {
+        background-image: url(../images/sprite.png);
+        width: 34px;
+        height: 39px;
+        position: absolute;
+        background-position: -63px 1491px;
+        z-index: 1;
+        bottom: 8rem;
+        left: 19rem;
+      }
+      .background_img7 {
+        width: 212px;
+        height: 118px;
+        background: url("../images/css_sprites.png") -10px -414px;
+        position: absolute;
+        bottom: 5rem;
+        left: 31rem;
+      }
+    }
+    .right_section {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      .background_img2 {
+        background: url("../images/css_sprites.png") -219px -10px;
+        width: 182px;
+        height: 177px;
+        position: absolute;
+        bottom: 7rem;
+        z-index: 1;
+        left: 2rem;
+      }
+      .background_img3 {
+        width: 168px;
+        height: 163px;
+        background: url("../images/css_sprites.png") -421px -10px;
+        position: absolute;
+        top: 22.1rem;
+        left: -2.1rem;
+      }
+      .background_img4 {
+        width: 172px;
+        height: 167px;
+        background: url("../images/css_sprites.png") -10px -227px;
+        position: absolute;
+        top: 15rem;
+        right: -1.2rem;
+        z-index: 1;
+      }
+      .background_img5 {
+        width: 170px;
+        height: 164px;
+        background: url("../images/css_sprites.png") -202px -227px;
+        position: absolute;
+        top: 2rem;
+        right: 25rem;
+      }
+      .background_img6 {
+        background-image: url(../images/sprite.png);
+        width: 34px;
+        height: 39px;
+        position: absolute;
+        background-position: -63px 1491px;
+        z-index: 1;
+        right: 0rem;
+        top: 0rem;
+      }
+      .background_img7 {
+        width: 189px;
+        height: 197px;
+        background: url("../images/css_sprites.png") -10px -10px;
+        position: absolute;
+        right: -10rem;
+        top: 37rem;
+      }
+      .mobile_image {
+        width: 20rem;
+        height: 40rem;
+        border-radius: 50px;
+        margin-top: 4rem;
+        position: relative;
+        box-shadow: -7px 32px 99px rgba(0, 0, 0, 0.14);
+      }
+    }
+  }
+}

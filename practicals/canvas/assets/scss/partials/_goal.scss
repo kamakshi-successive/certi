@@ -1,0 +1,68 @@
+.project_goal {
+  position: relative;
+  .project_goals--part {
+    min-height: 47vh;
+    height: auto;
+    .head1 {
+      color: $black;
+    }
+    .project_goals {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+      .circle_dots {
+        border-bottom: dotted 3px orange;
+        width: 100px;
+        float: left;
+        position: relative;
+        display: block;
+        height: 12px;
+        margin: 0 5px 0 5px;
+      }
+      div:first-child,
+      div:nth-child(2) {
+        float: left;
+      }
+      div:nth-child(2),
+      div:nth-child(3) {
+        float: left;
+      }
+      div:nth-child(3),
+      div:nth-child(4) {
+        float: left;
+      }
+      .project_goals--box {
+        width: 20%;
+        .circle_img {
+          position: relative;
+          .background_img1 {
+            width: 119px;
+            height: 90px;
+            opacity: 0.95;
+          }
+          .text {
+            position: absolute;
+            left: 3rem;
+            color: white;
+            bottom: 2.5rem;
+          }
+        }
+        .head2 {
+          color: $black;
+        }
+        .para1 {
+          color: $cuteGrey;
+          font-size: 10px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  .bg_img {
+    position: absolute;
+    right: -14rem;
+    top: -12rem;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,38 @@
+.challenge--part {
+  position: relative;
+  .challenges--part {
+    min-height: 51vh;
+    height: auto;
+    position: relative;
+    .head1 {
+      color: $black;
+    }
+    .head2 {
+      color: $black;
+    }
+    .line {
+      width: 6rem;
+      border-bottom: 1px solid black;
+    }
+    .para1 {
+      color: $cuteGrey;
+      width: 50%;
+    }
+    .background_img4 {
+      width: 172px;
+      height: 167px;
+      background: url(../images/css_sprites.png) -10px -227px;
+      position: absolute;
+      top: 17rem;
+      right: 14rem;
+      z-index: 1;
+    }
+  }
+  .bg_img {
+    width: 154px;
+    position: absolute;
+    bottom: -130px;
+    left: -69px;
+    z-index: -11;
+  }
+}

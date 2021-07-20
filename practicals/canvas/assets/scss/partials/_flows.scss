@@ -1,0 +1,205 @@
+.user_flow {
+  margin-bottom: 10rem;
+  .user_flows--part {
+    min-height: 100vh;
+    height: auto;
+    margin-top: 5rem;
+        .row-part__one {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .box-size {
+        width: 16rem;
+        .user_heading {
+          color: $black;
+          font-size: 2.2rem;
+          margin-bottom: 0rem;
+        }
+        .user_para {
+          color: $cuteGrey;
+          font-size: 1rem;
+          letter-spacing: -0.23px;
+        }
+      }
+      .pickup_flow_part {
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .pickup_content {
+          width: 229px;
+          height: 225px;
+          box-shadow: 0 35px 86px rgba(0, 0, 0, 0.05);
+          border-radius: 25px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 14px;
+          .flow_para {
+            color: $black;
+          }
+          .flow_head {
+            color: $cuteGrey;
+          }
+        }
+      }
+      .flow_part {
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -42px;
+        .user_heading {
+          color: $black;
+        }
+        .user_para {
+          color: $cuteGrey;
+        }
+        .small_box--head {
+          color: $black;
+        }
+        .small_box {
+          color: $white;
+          background-color: $orange;
+          width: 230px;
+          height: 235px;
+          box-shadow: 0 35px 86px rgba(0, 0, 0, 0.05);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 18px;
+
+          .small_box--heading {
+          }
+          .small_box--para {
+          }
+        }
+
+        .flow_head {
+          color: $black;
+        }
+        .flow_para {
+          color: $lightgrey;
+        }
+      }
+    }
+    .row-part__two {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .para_part {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.24px;
+        width: 57%;
+        text-align: center;
+      }
+      .flow_part {
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        .pickup_content {
+          width: 229px;
+          height: 225px;
+          box-shadow: 0 35px 86px rgba(0, 0, 0, 0.05);
+          border-radius: 25px;
+          .user_heading {
+            color: $black;
+          }
+          .user_para {
+            color: $cuteGrey;
+          }
+        }
+
+        .small_box--head {
+          color: $black;
+        }
+        .small_box {
+          color: $white;
+          background: $green;
+          width: 230px;
+          height: 235px;
+          box-shadow: 0 35px 86px rgba(0, 0, 0, 0.05);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 18px;
+          .small_box--heading {
+          }
+          .small_box--para {
+          }
+        }
+        .flow_head {
+          color: $black;
+        }
+        .flow_para {
+          color: $lightgrey;
+        }
+      }
+      .flow_part_content {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        .pickup_content {
+          width: 229px;
+          height: 225px;
+          box-shadow: 0 35px 86px rgba(0, 0, 0, 0.05);
+          border-radius: 25px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 14px;
+          .flow_para {
+            color: $black;
+          }
+          .flow_head {
+            color: $cuteGrey;
+          }
+        }
+      }
+      .width_second {
+        width: 16rem;
+      }
+    }
+    .row-part__three {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 54%;
+      margin-top: 5rem;
+      margin-left: 3rem;
+      .flow_part {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .pickup_content {
+          width: 229px;
+          height: 225px;
+          box-shadow: 0 35px 86px rgba(0, 0, 0, 0.05);
+          border-radius: 25px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 14px;
+          .flow_head {
+            color: $lightgrey;
+          }
+
+          .flow_optional {
+            color: $cuteGreen;
+            margin: 0;
+          }
+          .flow_para {
+            color: $black;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

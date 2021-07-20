@@ -1,0 +1,46 @@
+@import './variable';
+@import './mixin';
+@import './global';
+@import './common';
+@import './partials/home';
+@import './partials/goal';
+@import './partials/challenges';
+@import './partials/research';
+@import './partials/persona';
+@import './partials/flows';
+@import './partials/motivation1';
+@import './partials/motivation2';
+@import './partials/motivation3';
+@import './partials/comunity';
+@import './partials/pops';
+@import './partials/smartroute';
+@import './partials/maincolor';
+@import './partials/performResearch';
+@import './breakpoint';
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+.wrapper{
+    overflow: hidden;
+
+}
+.container {
+    max-width: 1280px;
+    padding: 0 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    font-family: $font_poppins;
+    margin: 0px;
+    scroll-behavior: smooth;
+    color: $grey;
+    // background-image: url(../images/home.png);
+    // opacity: 0.3;
+    width: 100%;
+    // border: 1px solid red;
+}

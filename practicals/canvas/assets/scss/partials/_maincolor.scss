@@ -1,0 +1,33 @@
+.main_color--part {
+  min-height: 70vh;
+  height: auto;
+  .upper_part {
+    display: flex;
+    align-items: center;
+    .color_head{
+      font-size: 24px;
+    }
+    .sprite_img {
+      height: 10px;
+      width: 54px;
+      margin: 0px 27px;
+    }
+  }
+  .lower_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    .color_part {
+      color: $grey;
+      .color_heading {
+      }
+      .color_name {
+        text-align: center;
+      }
+      .color_part--image {
+        width: 206px;
+      }
+    }
+  }
+}

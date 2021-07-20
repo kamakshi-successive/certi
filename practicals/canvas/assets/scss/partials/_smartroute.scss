@@ -1,0 +1,42 @@
+.smart_route--part {
+  .smart_route {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+        .left_part {
+      width: 60%;
+      position: relative;
+      .smart_route--image {
+        width: 32rem;
+        position: relative;
+        z-index: 11;
+      }
+      .smart_route--image-two {
+        width: 18rem;
+        position: absolute;
+        left: 40%;
+        top: 17%;
+      }
+    }
+    .right_part {
+      width: 40%;
+      display: flex;
+      .pickup_content {
+        width: 80%;
+        padding: 20px;
+        .motivation--para {
+          color: $grey;
+        }
+        .motivation--head {
+          color: $black;
+        }
+        .motivation--desc {
+          color: $lightgrey;
+        }
+      }
+    }
+  }
+}

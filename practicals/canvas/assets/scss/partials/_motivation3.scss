@@ -1,0 +1,44 @@
+.profile_moivation--three {
+  .moivation--three {
+    min-height: 100vh;
+    height: auto;
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .left_part {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      .motivation--content {
+        width: 80%;
+        padding: 20px;
+        .motivation--para {
+          color: $grey;
+        }
+        .motivation--head {
+          color: $black;
+        }
+        .motivation--desc {
+          color: $lightgrey;
+        }
+      }
+    }
+    .right_part {
+      width: 60%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      .image_one {
+        position: absolute;
+        width: 23rem;
+        z-index: -11;
+        left: -14px;
+        top: 125px;
+      }
+      .image_two {
+        width: 33rem;
+      }
+    }
+  }
+}

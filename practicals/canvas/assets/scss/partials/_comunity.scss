@@ -1,0 +1,46 @@
+.community_share--part {
+  .share--part {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .left_part {
+      width: 40%;
+      .share--part-img {
+        width: 34rem;
+      }
+    }
+    .right_part {
+      width: 60%;
+      .upper_part {
+        display: flex;
+        justify-content: center;
+        .motivation--content {
+          width: 80%;
+          padding: 20px;
+          .motivation--para {
+            color: $grey;
+          }
+          .motivation--head {
+            color: $black;
+          }
+          .motivation--desc {
+            color: $lightgrey;
+          }
+        }
+      }
+      .lower_part {
+        position: relative;
+        left: -83px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 38px;
+        .small_box {
+          width: 25%;
+        }
+      }
+    }
+  }
+}

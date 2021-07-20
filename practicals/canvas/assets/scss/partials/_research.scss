@@ -1,0 +1,105 @@
+.res{
+  margin-bottom: 10rem;
+  .research--part {
+  min-height: 100vh;
+  height: auto;
+  .research_heading {
+    color: $black;
+    text-align: center;
+  }
+  .research--part-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 10rem;
+    align-content: space-between;    
+    .column-part__one {
+      width: 30%;
+      min-height: 62vh;
+      height: auto;
+            display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .small_box {
+        background: $smoke_white;
+        color: $lightgrey;
+        display: flex;
+        height: 6rem;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 12px;
+        .count_para {
+          margin-right: 1rem;
+
+        }
+        .desc_para {
+        }
+      }
+      .small_box:hover {
+        box-shadow: 0 19px 36px rgba(0, 0, 0, 0.11);
+        .count_para {
+          color: $orangeish;
+
+        }
+        .desc_para {
+          color: $black;
+        }
+      }
+    }
+    .column-part__two {
+      width: 40%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .image_one {
+        position: absolute;
+        width: 27rem;
+      }
+      .image_two {
+        position: absolute;
+        width: 22rem;
+      }
+      .image_three {
+        position: absolute;
+        width: 19.9rem; 
+      }
+    }
+    .column-part__three {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 62vh;
+      height: auto;
+            .small_box {
+        background: $smoke_white;
+        color: $lightgrey;
+        display: flex;
+        height: 6rem;
+        align-items: center;
+        font-size: 20px;
+        justify-content: space-around;
+        padding: 12px;
+        .count_para {
+          margin-right: 1rem;
+        }
+        .desc_para {
+        }
+      }
+
+      .small_box:hover {
+        box-shadow: 0 19px 36px rgba(0, 0, 0, 0.11);
+        .count_para {
+          color: $orangeish;
+        }
+        .desc_para {
+          color: $black;
+        }
+      }
+    }
+    }
+  }
+}
